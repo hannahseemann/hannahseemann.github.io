@@ -1,3 +1,5 @@
 theme: minima
 title: Hannah 
 description: I'm a test
+header_pages:
+  - Publications.md
