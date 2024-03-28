@@ -1,0 +1,17 @@
+name: "personal-website"
+output_dir: "."
+navbar:
+  title: "Hannah J. Seemann"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Presentations"
+      href: presentations.html
+output:
+  html_document:
+    includes:
+      in_header: header.html
+    theme: paper
+    css: style.css
