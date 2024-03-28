@@ -5,8 +5,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Test"
-      href: publications2.html
+    - text: "Publications"
+      href: publications.html
     - text: "Presentations"
       href: presentations.html
 output:
