@@ -13,7 +13,7 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -146,15 +146,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -183,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -192,9 +188,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -276,13 +279,34 @@ $(document).ready(function () {
 <!-- #### Submitted/under review -->
 <div id="section" class="section level4">
 <h4>2023</h4>
-<p>Shahmohammadi, S., <strong>Seemann, H.</strong>, Stede, M., &amp; Scheffler, T. (2023). Encoding discourse structure: comparison of RST and QUD. In M. Strube, C. Braud, C. Hardmeier, J. J. Li, S. Loáiciga, &amp; A. Zeldes (Eds.), Proceedings of the 4th Workshop on Computational Approaches to Discourse (CODI 2023) (Publisher’s Version). Assoc. for Computational Linguistics. <a href="https://aclanthology.org/2023.codi-1.11/" class="uri">https://aclanthology.org/2023.codi-1.11/</a></p>
-<p>Scheffler, T., Kern, L.-A., &amp; <strong>Seemann, H.</strong> (2023). Individuelle linguistische Variabilität in sozialen Medien: ein multimediales Korpus. In M. Kupietz (Ed.), Neue Entwicklungen in der Korpuslandschaft der Germanistik (Publisher’s Version, Vol. 11, pp. 87–97). Gunter Narr Verlag. <a href="https://elibrary.narr.digital/content/chapter/10.24053/9783823396024_10.pdf">PDF</a></p>
+<p>Shahmohammadi, S., <strong>Seemann, H.</strong>, Stede, M., &amp;
+Scheffler, T. (2023). Encoding discourse structure: comparison of RST
+and QUD. In M. Strube, C. Braud, C. Hardmeier, J. J. Li, S. Loáiciga,
+&amp; A. Zeldes (Eds.), Proceedings of the 4th Workshop on Computational
+Approaches to Discourse (CODI 2023) (Publisher’s Version). Assoc. for
+Computational Linguistics. <a
+href="https://aclanthology.org/2023.codi-1.11/"
+class="uri">https://aclanthology.org/2023.codi-1.11/</a></p>
+<p>Scheffler, T., Kern, L.-A., &amp; <strong>Seemann, H.</strong>
+(2023). Individuelle linguistische Variabilität in sozialen Medien: ein
+multimediales Korpus. In M. Kupietz (Ed.), Neue Entwicklungen in der
+Korpuslandschaft der Germanistik (Publisher’s Version, Vol. 11,
+pp. 87–97). Gunter Narr Verlag. <a
+href="https://doi.org/10.24053/9783823396024"
+class="uri">https://doi.org/10.24053/9783823396024</a></p>
 </div>
 <div id="section-1" class="section level4">
 <h4>2022</h4>
-<p><strong>Seemann, H.</strong>, &amp; Scheffler, T. (2022). Differentiating Social Media Texts via Clustering. In F. Karsdrop, A. Lassche &amp; K. Nielbo (Ed.), Proceedings of the Computational Humanities Research Conference 2022. <a href="https://ceur-ws.org/Vol-3290/" class="uri">https://ceur-ws.org/Vol-3290/</a></p>
-<p>Scheffler, T., Kern, L.-A. &amp; <strong>Seemann, H.</strong> (2022). The medium is not the message. Register Studies. <a href="https://doi.org/10.1075/rs.22009.sch" class="uri">https://doi.org/10.1075/rs.22009.sch</a></p>
+<p><strong>Seemann, H.</strong>, &amp; Scheffler, T. (2022).
+Differentiating Social Media Texts via Clustering. In F. Karsdrop, A.
+Lassche &amp; K. Nielbo (Ed.), Proceedings of the Computational
+Humanities Research Conference 2022. <a
+href="https://ceur-ws.org/Vol-3290/"
+class="uri">https://ceur-ws.org/Vol-3290/</a></p>
+<p>Scheffler, T., Kern, L.-A. &amp; <strong>Seemann, H.</strong> (2022).
+The medium is not the message. Register Studies. <a
+href="https://doi.org/10.1075/rs.22009.sch"
+class="uri">https://doi.org/10.1075/rs.22009.sch</a></p>
 </div>
 
 
