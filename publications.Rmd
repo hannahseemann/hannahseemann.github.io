@@ -13,7 +13,7 @@ Loáiciga, & A. Zeldes (Eds.), Proceedings of the 4th Workshop on Computational 
 Discourse (CODI 2023) (Publisher’s Version). Assoc. for Computational Linguistics.
 https://aclanthology.org/2023.codi-1.11/
 
-Scheffler, T., Kern, L.-A., & **Seemann, H.** (2023). Individuelle linguistische Variabilität in sozialen Medien: ein multimediales Korpus. In M. Kupietz (Ed.), Neue Entwicklungen in der Korpuslandschaft der Germanistik (Publisher’s Version, Vol. 11, pp. 87–97). Gunter Narr Verlag. [PDF](https://elibrary.narr.digital/content/chapter/10.24053/9783823396024_10.pdf)
+Scheffler, T., Kern, L.-A., & **Seemann, H.** (2023). Individuelle linguistische Variabilität in sozialen Medien: ein multimediales Korpus. In M. Kupietz (Ed.), Neue Entwicklungen in der Korpuslandschaft der Germanistik (Publisher’s Version, Vol. 11, pp. 87–97). Gunter Narr Verlag. https://doi.org/10.24053/9783823396024
 
 
 #### 2022
