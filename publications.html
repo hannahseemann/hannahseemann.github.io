@@ -13,7 +13,7 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -146,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -179,8 +183,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -188,16 +192,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -279,6 +276,33 @@ $(document).ready(function () {
 <!-- #### Submitted/under review -->
 <!-- style APA 7 -->
 <div id="section" class="section level4">
+<h4>2024</h4>
+<p><strong>Seemann, H.</strong> (2024). Modalpartikel. In D. Gutzmann,
+K. Turgay &amp; T. E. Zimmermann (eds.). Semantik und Pragmatik
+(Wörterbücher zur Sprach- und Kommunikationswissenschaft (WSK) Online).
+Berlin: Mouton de Gruyter. <a
+href="https://www.degruyter.com/database/WSK/entry/wsk_idbf88e882-47e4-44a2-8402-cff186acd52e/html"
+class="uri">https://www.degruyter.com/database/WSK/entry/wsk_idbf88e882-47e4-44a2-8402-cff186acd52e/html</a></p>
+<p>Scheffler, T., <strong>Seemann, H.</strong> (2024). DAS TWIBLOCOP:
+ein multimediales Korpus aus Blogposts und Tweets. Zeitschrift Korpora
+Deutsch Als Fremdsprache: KorDaF, 4(2), 264–268. <a
+href="https://kordaf.tujournals.ulb.tu-darmstadt.de/article/id/4130/"
+class="uri">https://kordaf.tujournals.ulb.tu-darmstadt.de/article/id/4130/</a></p>
+<p><strong>Seemann, H.</strong>, Shahmohammadi, S., Stede, M. &amp;
+Scheffler, T. (2024a). Discourse-Level Features in Spoken and Written
+Communication. In B. Krenn, D. Gromann , B. Heinisch , M. Wiegand , P.
+H. Luz de Araujo, B. Roth, &amp; A. Baumann (Eds.), Proceedings of the
+20th Conference on Natural Language Processing (KONVENS 2024)
+(Publisher’s Version, pp. 292–302). Assoc. for Computational
+Linguistics. <a href="https://aclanthology.org/2024.konvens-main.29"
+class="uri">https://aclanthology.org/2024.konvens-main.29</a></p>
+<p><strong>Seemann, H.</strong>, Shahmohammadi, S., Stede, M. &amp;
+Scheffler, T. (2024b). Spoken vs. Written Computer-Mediated
+Communiation. In C. Poudat &amp; M. Guernut (Eds.), Proceedings of the
+11th Conference on CMC and Social Media Corpora for the Humanities
+(Publisher’s Version, pp. 70–74). University Côte d’Azur and CORLI.</p>
+</div>
+<div id="section-1" class="section level4">
 <h4>2023</h4>
 <p>Shahmohammadi, S., <strong>Seemann, H.</strong>, Stede, M., &amp;
 Scheffler, T. (2023). Encoding Discourse Structure: Comparison of RST
@@ -294,7 +318,7 @@ pp. 87–97). Gunter Narr Verlag. <a
 href="https://doi.org/10.24053/9783823396024"
 class="uri">https://doi.org/10.24053/9783823396024</a></p>
 </div>
-<div id="section-1" class="section level4">
+<div id="section-2" class="section level4">
 <h4>2022</h4>
 <p><strong>Seemann, H.</strong>, &amp; Scheffler, T. (2022).
 Differentiating Social Media Texts via Clustering. In F. Karsdrop, A.

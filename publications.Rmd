@@ -5,6 +5,18 @@ title: "Publications"
 <!-- #### Submitted/under review -->
 <!-- style APA 7 -->
 
+#### 2024
+
+**Seemann, H.** (2024). Modalpartikel. In D. Gutzmann, K. Turgay & T. E. Zimmermann (eds.). Semantik und Pragmatik (Wörterbücher zur Sprach- und
+Kommunikationswissenschaft (WSK) Online). Berlin: Mouton de Gruyter. https://www.degruyter.com/database/WSK/entry/wsk_idbf88e882-47e4-44a2-8402-cff186acd52e/html
+
+Scheffler, T., **Seemann, H.** (2024). DAS TWIBLOCOP: ein multimediales Korpus aus Blogposts und Tweets. Zeitschrift Korpora Deutsch Als Fremdsprache: KorDaF, 4(2), 264–268.
+https://kordaf.tujournals.ulb.tu-darmstadt.de/article/id/4130/
+
+**Seemann, H.**, Shahmohammadi, S., Stede, M. & Scheffler, T. (2024a). Discourse-Level Features in Spoken and Written Communication. In B. Krenn, D. Gromann , B. Heinisch , M. Wiegand , P. H. Luz de Araujo, B. Roth, & A. Baumann (Eds.), Proceedings of the 20th Conference on Natural Language Processing (KONVENS 2024) (Publisher’s Version, pp. 292–302). Assoc. for Computational Linguistics. https://aclanthology.org/2024.konvens-main.29
+
+**Seemann, H.**, Shahmohammadi, S., Stede, M. & Scheffler, T. (2024b). Spoken vs. Written Computer-Mediated Communiation. In C. Poudat & M. Guernut (Eds.), Proceedings of the 11th Conference on CMC and Social Media Corpora for the Humanities (Publisher’s Version, pp. 70–74). University Côte d’Azur and CORLI.
+
 #### 2023
 
 Shahmohammadi, S., **Seemann, H.**, Stede, M., & Scheffler, T. (2023). Encoding Discourse Structure: Comparison of RST and QUD. Proceedings of the 4th Workshop on Computational Approaches to Discourse (CODI 2023), 89–98.
@@ -15,8 +27,7 @@ Scheffler, T., Kern, L.-A., & **Seemann, H.** (2023). Individuelle linguistische
 
 #### 2022
 
-**Seemann, H.**, & Scheffler, T. (2022). Differentiating Social Media Texts via Clustering. In F.
-Karsdrop, A. Lassche & K. Nielbo (Ed.), Proceedings of the Computational Humanities Research
+**Seemann, H.**, & Scheffler, T. (2022). Differentiating Social Media Texts via Clustering. In F. Karsdrop, A. Lassche & K. Nielbo (Ed.), Proceedings of the Computational Humanities Research
 Conference 2022. https://ceur-ws.org/Vol-3290/
 
 Scheffler, T., Kern, L.-A., & **Seemann, H.** (2022). The medium is not the message: Individual level register variation in blogs vs. tweets. Register Studies, 4(2), 171–201. https://doi.org/10.1075/rs.22009.sch

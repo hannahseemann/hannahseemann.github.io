@@ -1,33 +1,32 @@
 ---
 title: "Presentations & Posters"
 ---
+#### 2024
 
+Talk: **Modal Particles as Markers in Discourse** (Discourse Markers: Markers in Discourse and Markers on Discourse), 22.06.2024, Metz, France.
 
 #### 2023
 
-Talk: Modal Particles and their Interaction with Discourse (Experimental Linguistic Talks Utrecht
-University), 30.10.2023, Utrecht, Netherlands
+Talk: **Modal Particles and their Interaction with Discourse** (Experimental Linguistic Talks Utrecht
+University), 30.10.2023, Utrecht, Netherlands.
 
-Poster: Building a Parallel Discourse-annotated Multimedia Corpus, with Shahmohammadi, S.,
-Scheffler, T. & Stede, M. (CMC-Corpora), 14.09.2023, Mannheim, Germany
+Poster: **Building a Parallel Discourse-annotated Multimedia Corpus**, with Shahmohammadi, S.,
+Scheffler, T. & Stede, M. (CMC-Corpora Conference), 14.09.2023, Mannheim, Germany.
 
-Poster: Expressing certainty and attitude in Czech and German, with Marsík, A. Presented at the
-International Contrastive Linguistics Conference 2023, Mannheim, Germany
+Poster: **Expressing certainty and attitude in Czech and German**, with Marsík, A. (International Contrastive Linguistics Conference 2023), Mannheim, Germany.
 
-Poster: Influence of German modal particles on the perception of discourse relations (Jahrestagung
-der DGfS), 09.03.2023, Köln, Germany
+Poster: **Influence of German modal particles on the perception of discourse relations** (Jahrestagung der DGfS), 09.03.2023, Köln, Germany.
 
-Talk: QUD Structure as Discourse Structure: Segmentation, Labelling, and Genre Characteristics of
-longer Texts, with Deck, O. & Scheffler, T. (QUD-Anno Challenge), 23.02.2023
+Talk: **QUD Structure as Discourse Structure: Segmentation, Labelling, and Genre Characteristics of longer Texts**, with Deck, O. & Scheffler, T. (QUD-Anno Challenge), 23.02.2023, online.
 
 #### 2022
 
-Talk: Modal Particles as Markers of Style, Medium, and Register, with Scheffler, T. & Kern, L.-A.
+Talk: **Modal Particles as Markers of Style, Medium, and Register**, with Scheffler, T. & Kern, L.-A.
 (Workshop on Metaphors and stance markers in register variation, MeStaR), 16.06.22, Berlin,
-Germany
+Germany.
 
-Poster: Individuelle linguistische Variabilität in sozialen Medien, with Scheffler, T. & Kern, L.-A.
-(IDS Methodenmesse), 16.03.22, Mannheim, Germany
+Poster: **Individuelle linguistische Variabilität in sozialen Medien**, with Scheffler, T. & Kern, L.-A.
+(IDS Methodenmesse), 16.03.22, online.
 
 
 
