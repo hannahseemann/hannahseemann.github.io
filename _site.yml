@@ -9,6 +9,8 @@ navbar:
       href: publications.html
     - text: "Presentations"
       href: presentations.html
+    - text: "CV"
+      href: CV.html
 output:
   html_document:
     includes:
