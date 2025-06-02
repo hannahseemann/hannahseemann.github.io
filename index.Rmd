@@ -1,13 +1,32 @@
 ---
 title: "Hannah J. Seemann"
+output:
+  html_document:
+    df_print: paged
 ---
 
-![](foto.jpeg)
+<div style="float: left; margin-right: 1px; margin-top: 20px; margin-bottom: 0px; text-align: left;">
+  <figure style="margin: 0; padding: 0; line-height: 1;">
+    <img src="foto.jpeg" alt="Description" style="height: 200px; display: block; margin: 0 auto;">
+    <figcaption style="font-size: 0.7em; color: gray; margin-top: 0px; padding: 0; line-height: 0.9;">
+      © 2025 Daniel Gutzmann
+    </figcaption>
+  </figure>
+</div>
+
+<div style="overflow: hidden;"> <!-- this prevents the text from wrapping around the image -->
+
+<p>
 I am a PhD student in Tatjana Scheffler's lab for [Digitale Forensische Linguistik](https://staff.germanistik.rub.de/digitale-forensische-linguistik/) at the Ruhr-Universität Bochum. My position is part of the [Sonderforschungsbereich Limits of Variability in Language.](https://www.sfb1287.uni-potsdam.de/) at the Universität Potsdam. Our project studies how to transform texts across media. We are interested in how discourse phenomena such as discourse structure and particle use differ between texts in the spoken and written domain. We have created [PARADISE](https://osf.io/59acq/), a corpus of thematically parallel segments of podcasts and blog posts, annotated for various discourse phenomena. 
+</p>
 
+<p>
+In my dissertation project, I study German modal particles as signals in discourse. Based on a series of forced-choice experiments, I show that only a specific group of particles influences which discourse relation is interpreted by a reader. A self-paced reading study showed no interaction between the presence of these particles and reading time. Taking together these results, I conclude that modal particles are functionally heterogeneous. Those particles that affect discourse are non-connective signals: They influence which relation is perceived, but do not facilitate discourse relations.
+<br>
+You can find the link to my thesis and all supplementary material here soon!
+</p>
 
-In my dissertation project, I study how German modal particles interact with discourse structure -- with more info to follow soon!
-
+</div>
 
 ---
 #### Contact
